@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מתכנן שיעורי בית</string>
+
+    <!-- כללי -->
+    <string name="cancel">ביטול</string>
+    <string name="delete">מחק</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="all">הכל</string>
+
+    <!-- מסך 1 -->
+    <string name="welcome_new">ברוכים הבאים! הכניסו את שמכם</string>
+    <string name="welcome_back">ברוך שובך, %1$s</string>
+    <string name="name_label">שם התלמיד/ה:</string>
+    <string name="name_hint">למשל: נור</string>
+    <string name="enter">כניסה</string>
+    <string name="reset_all">איפוס כל הנתונים</string>
+    <string name="name_too_short">יש להכניס שם של 2 תווים לפחות</string>
+    <string name="reset_title">איפוס נתונים</string>
+    <string name="reset_message">כל המשימות והשם יימחקו. להמשיך?</string>
+    <string name="reset_confirm">כן, למחוק</string>
+    <string name="reset_done">הנתונים אופסו</string>
+
+    <!-- מסך 2 -->
+    <string name="title_list">המשימות שלי</string>
+    <string name="hello_user">שלום %1$s!</string>
+    <string name="stats">משימות: %1$d  |  הושלמו: %2$d  |  נקודות: %3$d</string>
+    <string name="filter_label">סינון לפי מקצוע:</string>
+    <string name="empty_list">אין משימות להצגה</string>
+    <string name="add_task">משימה חדשה</string>
+    <string name="logout">יציאה</string>
+    <string name="logout_title">יציאה</string>
+    <string name="logout_message">לחזור למסך הכניסה?</string>
+    <string name="delete_task_title">מחיקת משימה</string>
+    <string name="delete_task_message">למחוק את \"%1$s\"?</string>
+    <string name="task_deleted">המשימה נמחקה</string>
+
+    <!-- מסך 3 -->
+    <string name="title_add">משימה חדשה</string>
+    <string name="type_label">סוג המשימה:</string>
+    <string name="task_title_label">כותרת:</string>
+    <string name="task_title_hint">למשל: עמוד 45 תרגילים 1-8</string>
+    <string name="subject_label">מקצוע:</string>
+    <string name="priority_label">עדיפות:</string>
+    <string name="due_label">תאריך הגשה:</string>
+    <string name="due_hint">12/10</string>
+    <string name="amount_exercises">מספר תרגילים</string>
+    <string name="amount_topics">מספר נושאים למבחן</string>
+    <string name="amount_hint_exercises">למשל 8</string>
+    <string name="amount_hint_topics">למשל 3</string>
+    <string name="save">שמירה</string>
+    <string name="err_title">יש להכניס כותרת</string>
+    <string name="err_date">תאריך בפורמט יום/חודש, למשל 12/10</string>
+    <string name="err_empty_exercises">יש להכניס מספר תרגילים</string>
+    <string name="err_empty_topics">יש להכניס מספר נושאים למבחן</string>
+    <string name="err_amount_range">הכמות חייבת להיות בין 1 ל-50</string>
+    <string name="saved_points">נשמר! המשימה שווה %1$d נקודות</string>
+
+    <!-- מסך 4 -->
+    <string name="title_details">פרטי משימה</string>
+    <string name="d_type">סוג: %1$s</string>
+    <string name="d_subject">מקצוע: %1$s</string>
+    <string name="d_priority">עדיפות: %1$s</string>
+    <string name="d_due">תאריך הגשה: %1$s</string>
+    <string name="d_exercises">תרגילים: %1$d</string>
+    <string name="d_topics">נושאים למבחן: %1$d</string>
+    <string name="d_status_done">סטטוס: בוצע</string>
+    <string name="d_status_open">סטטוס: פתוח</string>
+    <string name="d_points">שווה %1$d נקודות</string>
+    <string name="btn_delete">מחיקה</string>
+    <string name="mark_done">סמן כבוצע</string>
+    <string name="unmark_done">בטל סימון</string>
+    <string name="back">חזרה</string>
+    <string name="done_toast">כל הכבוד! +%1$d נקודות</string>
+    <string name="undone_toast">הסימון בוטל</string>
+    <string name="not_found">המשימה לא נמצאה</string>
+
+    <string-array name="task_types">
+        <item>שיעורי בית</item>
+        <item>מבחן</item>
+    </string-array>
+
+    <string-array name="subjects">
+        <item>מתמטיקה</item>
+        <item>אנגלית</item>
+        <item>מדעי המחשב</item>
+        <item>פיזיקה</item>
+        <item>היסטוריה</item>
+    </string-array>
+
+    <string-array name="priorities">
+        <item>נמוכה</item>
+        <item>בינונית</item>
+        <item>גבוהה</item>
+    </string-array>
+</resources>
